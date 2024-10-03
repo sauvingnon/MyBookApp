@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F35AA8192C6E63EF003E73E9 /* MyBookAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AA8182C6E63EF003E73E9 /* MyBookAppApp.swift */; };
+		F35AA81B2C6E63EF003E73E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AA81A2C6E63EF003E73E9 /* ContentView.swift */; };
+		F35AA81D2C6E63F0003E73E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35AA81C2C6E63F0003E73E9 /* Assets.xcassets */; };
+		F35AA8202C6E63F0003E73E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35AA81F2C6E63F0003E73E9 /* Preview Assets.xcassets */; };
+		F35AA8272C6E6DAB003E73E9 /* CustomSliderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AA8262C6E6DAB003E73E9 /* CustomSliderButton.swift */; };
+		F35AA8292C6E76A5003E73E9 /* CustomPlayLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AA8282C6E76A5003E73E9 /* CustomPlayLine.swift */; };
+		F35AA8472C6E903E003E73E9 /* 07 Garald (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA82B2C6E903E003E73E9 /* 07 Garald (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8482C6E903E003E73E9 /* 11 Perchatka (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA82C2C6E903E003E73E9 /* 11 Perchatka (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8492C6E903E003E73E9 /* 26 Ivikovi juravli (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA82D2C6E903E003E73E9 /* 26 Ivikovi juravli (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA84A2C6E903E003E73E9 /* 17 Sud Bojiy nad episkopom (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA82E2C6E903E003E73E9 /* 17 Sud Bojiy nad episkopom (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA84B2C6E903E003E73E9 /* 02 Adelstan (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA82F2C6E903E003E73E9 /* 02 Adelstan (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA84C2C6E903E003E73E9 /* 06 Mschenie (V Jukovskiy balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8302C6E903E003E73E9 /* 06 Mschenie (V Jukovskiy balladi) - Bibe.ru.mp3 */; };
+		F35AA84D2C6E903E003E73E9 /* 08 Tri pesni (V.Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8312C6E903E003E73E9 /* 08 Tri pesni (V.Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA84E2C6E903E003E73E9 /* 25 Bratoubiytsa (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8322C6E903E003E73E9 /* 25 Bratoubiytsa (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA84F2C6E903E003E73E9 /* 21 Roland orujenosets (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8332C6E903E003E73E9 /* 21 Roland orujenosets (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8502C6E903E003E73E9 /* 24 Stariy ritsar (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8342C6E903E003E73E9 /* 24 Stariy ritsar (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8512C6E903E003E73E9 /* 22 Plavanie Karla Velikogo (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8352C6E903E003E73E9 /* 22 Plavanie Karla Velikogo (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8522C6E903E003E73E9 /* 20 Koroleva Uraka i pyat muchenikov (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8362C6E903E003E73E9 /* 20 Koroleva Uraka i pyat muchenikov (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8532C6E903E003E73E9 /* 05 Eolova arfa (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8372C6E903E003E73E9 /* 05 Eolova arfa (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8542C6E903E003E73E9 /* 13 Zamok Smalgolm ili Ivanov vecher (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8382C6E903E003E73E9 /* 13 Zamok Smalgolm ili Ivanov vecher (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8552C6E903E003E73E9 /* 28 Lesnoy tsar (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8392C6E903E003E73E9 /* 28 Lesnoy tsar (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 */; };
+		F35AA8562C6E903E003E73E9 /* 10 Ritsar Togenburg (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA83A2C6E903E003E73E9 /* 10 Ritsar Togenburg (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8572C6E903E003E73E9 /* 15 Polikratov persten (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA83B2C6E903E003E73E9 /* 15 Polikratov persten (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8582C6E903E003E73E9 /* 12 Graf Gapsburgskiy (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA83C2C6E903E003E73E9 /* 12 Graf Gapsburgskiy (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8592C6E903E003E73E9 /* 01 Kubok (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA83D2C6E903E003E73E9 /* 01 Kubok (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 */; };
+		F35AA85A2C6E903E003E73E9 /* 04 Ballada v kotoroy opisivaetsya kak odna starushka ehala na kone (V Jukovskiy) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA83E2C6E903E003E73E9 /* 04 Ballada v kotoroy opisivaetsya kak odna starushka ehala na kone (V Jukovskiy) - Bibe.ru.mp3 */; };
+		F35AA85B2C6E903E003E73E9 /* 16 Jaloba Tsereri (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA83F2C6E903E003E73E9 /* 16 Jaloba Tsereri (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA85C2C6E903E003E73E9 /* 18 Alonzo (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8402C6E903E003E73E9 /* 18 Alonzo (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA85D2C6E903E003E73E9 /* 03 Varvik (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8412C6E903E003E73E9 /* 03 Varvik (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA85E2C6E903E003E73E9 /* 09 Ribak (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8422C6E903E003E73E9 /* 09 Ribak (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA85F2C6E903E003E73E9 /* 23 Ritsar Rollon (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8432C6E903E003E73E9 /* 23 Ritsar Rollon (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8602C6E903E003E73E9 /* 27 Elevzinskiy prazdnik (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8442C6E903E003E73E9 /* 27 Elevzinskiy prazdnik (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8612C6E903E003E73E9 /* 14 Torjestvo pobediteley (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8452C6E903E003E73E9 /* 14 Torjestvo pobediteley (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8622C6E903E003E73E9 /* 19 Pokayanie (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F35AA8462C6E903E003E73E9 /* 19 Pokayanie (V Jukovskiy-balladi) - Bibe.ru.mp3 */; };
+		F35AA8642C6F6CEC003E73E9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AA8632C6F6CEC003E73E9 /* CustomTabBar.swift */; };
+		F35AA8662C6FADEA003E73E9 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35AA8652C6FADEA003E73E9 /* AudioPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F35AA8152C6E63EF003E73E9 /* MyBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35AA8182C6E63EF003E73E9 /* MyBookAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookAppApp.swift; sourceTree = "<group>"; };
+		F35AA81A2C6E63EF003E73E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F35AA81C2C6E63F0003E73E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35AA81F2C6E63F0003E73E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F35AA8262C6E6DAB003E73E9 /* CustomSliderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderButton.swift; sourceTree = "<group>"; };
+		F35AA8282C6E76A5003E73E9 /* CustomPlayLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayLine.swift; sourceTree = "<group>"; };
+		F35AA82B2C6E903E003E73E9 /* 07 Garald (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 Garald (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA82C2C6E903E003E73E9 /* 11 Perchatka (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 Perchatka (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA82D2C6E903E003E73E9 /* 26 Ivikovi juravli (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "26 Ivikovi juravli (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA82E2C6E903E003E73E9 /* 17 Sud Bojiy nad episkopom (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17 Sud Bojiy nad episkopom (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA82F2C6E903E003E73E9 /* 02 Adelstan (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Adelstan (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8302C6E903E003E73E9 /* 06 Mschenie (V Jukovskiy balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Mschenie (V Jukovskiy balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8312C6E903E003E73E9 /* 08 Tri pesni (V.Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Tri pesni (V.Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8322C6E903E003E73E9 /* 25 Bratoubiytsa (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "25 Bratoubiytsa (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8332C6E903E003E73E9 /* 21 Roland orujenosets (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "21 Roland orujenosets (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8342C6E903E003E73E9 /* 24 Stariy ritsar (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "24 Stariy ritsar (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8352C6E903E003E73E9 /* 22 Plavanie Karla Velikogo (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "22 Plavanie Karla Velikogo (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8362C6E903E003E73E9 /* 20 Koroleva Uraka i pyat muchenikov (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20 Koroleva Uraka i pyat muchenikov (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8372C6E903E003E73E9 /* 05 Eolova arfa (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Eolova arfa (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8382C6E903E003E73E9 /* 13 Zamok Smalgolm ili Ivanov vecher (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13 Zamok Smalgolm ili Ivanov vecher (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8392C6E903E003E73E9 /* 28 Lesnoy tsar (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "28 Lesnoy tsar (V Jukovskiy-balladi i povest) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA83A2C6E903E003E73E9 /* 10 Ritsar Togenburg (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 Ritsar Togenburg (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA83B2C6E903E003E73E9 /* 15 Polikratov persten (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15 Polikratov persten (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA83C2C6E903E003E73E9 /* 12 Graf Gapsburgskiy (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12 Graf Gapsburgskiy (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA83D2C6E903E003E73E9 /* 01 Kubok (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Kubok (V Jukovskiy-balladi i povest) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA83E2C6E903E003E73E9 /* 04 Ballada v kotoroy opisivaetsya kak odna starushka ehala na kone (V Jukovskiy) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Ballada v kotoroy opisivaetsya kak odna starushka ehala na kone (V Jukovskiy) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA83F2C6E903E003E73E9 /* 16 Jaloba Tsereri (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16 Jaloba Tsereri (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8402C6E903E003E73E9 /* 18 Alonzo (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "18 Alonzo (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8412C6E903E003E73E9 /* 03 Varvik (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Varvik (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8422C6E903E003E73E9 /* 09 Ribak (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 Ribak (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8432C6E903E003E73E9 /* 23 Ritsar Rollon (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "23 Ritsar Rollon (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8442C6E903E003E73E9 /* 27 Elevzinskiy prazdnik (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "27 Elevzinskiy prazdnik (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8452C6E903E003E73E9 /* 14 Torjestvo pobediteley (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 Torjestvo pobediteley (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8462C6E903E003E73E9 /* 19 Pokayanie (V Jukovskiy-balladi) - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "19 Pokayanie (V Jukovskiy-balladi) - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		F35AA8632C6F6CEC003E73E9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		F35AA8652C6FADEA003E73E9 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35AA8122C6E63EF003E73E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35AA80C2C6E63EF003E73E9 = {
+			isa = PBXGroup;
+			children = (
+				F35AA8172C6E63EF003E73E9 /* MyBookApp */,
+				F35AA8162C6E63EF003E73E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35AA8162C6E63EF003E73E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35AA8152C6E63EF003E73E9 /* MyBookApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35AA8172C6E63EF003E73E9 /* MyBookApp */ = {
+			isa = PBXGroup;
+			children = (
+				F35AA82A2C6E903E003E73E9 /* Media */,
+				F35AA8182C6E63EF003E73E9 /* MyBookAppApp.swift */,
+				F35AA81A2C6E63EF003E73E9 /* ContentView.swift */,
+				F35AA8282C6E76A5003E73E9 /* CustomPlayLine.swift */,
+				F35AA8262C6E6DAB003E73E9 /* CustomSliderButton.swift */,
+				F35AA8652C6FADEA003E73E9 /* AudioPlayer.swift */,
+				F35AA8632C6F6CEC003E73E9 /* CustomTabBar.swift */,
+				F35AA81C2C6E63F0003E73E9 /* Assets.xcassets */,
+				F35AA81E2C6E63F0003E73E9 /* Preview Content */,
+			);
+			path = MyBookApp;
+			sourceTree = "<group>";
+		};
+		F35AA81E2C6E63F0003E73E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F35AA81F2C6E63F0003E73E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F35AA82A2C6E903E003E73E9 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				F35AA82B2C6E903E003E73E9 /* 07 Garald (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA82C2C6E903E003E73E9 /* 11 Perchatka (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA82D2C6E903E003E73E9 /* 26 Ivikovi juravli (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA82E2C6E903E003E73E9 /* 17 Sud Bojiy nad episkopom (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA82F2C6E903E003E73E9 /* 02 Adelstan (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8302C6E903E003E73E9 /* 06 Mschenie (V Jukovskiy balladi) - Bibe.ru.mp3 */,
+				F35AA8312C6E903E003E73E9 /* 08 Tri pesni (V.Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8322C6E903E003E73E9 /* 25 Bratoubiytsa (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8332C6E903E003E73E9 /* 21 Roland orujenosets (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8342C6E903E003E73E9 /* 24 Stariy ritsar (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8352C6E903E003E73E9 /* 22 Plavanie Karla Velikogo (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8362C6E903E003E73E9 /* 20 Koroleva Uraka i pyat muchenikov (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8372C6E903E003E73E9 /* 05 Eolova arfa (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8382C6E903E003E73E9 /* 13 Zamok Smalgolm ili Ivanov vecher (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8392C6E903E003E73E9 /* 28 Lesnoy tsar (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 */,
+				F35AA83A2C6E903E003E73E9 /* 10 Ritsar Togenburg (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA83B2C6E903E003E73E9 /* 15 Polikratov persten (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA83C2C6E903E003E73E9 /* 12 Graf Gapsburgskiy (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA83D2C6E903E003E73E9 /* 01 Kubok (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 */,
+				F35AA83E2C6E903E003E73E9 /* 04 Ballada v kotoroy opisivaetsya kak odna starushka ehala na kone (V Jukovskiy) - Bibe.ru.mp3 */,
+				F35AA83F2C6E903E003E73E9 /* 16 Jaloba Tsereri (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8402C6E903E003E73E9 /* 18 Alonzo (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8412C6E903E003E73E9 /* 03 Varvik (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8422C6E903E003E73E9 /* 09 Ribak (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8432C6E903E003E73E9 /* 23 Ritsar Rollon (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8442C6E903E003E73E9 /* 27 Elevzinskiy prazdnik (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8452C6E903E003E73E9 /* 14 Torjestvo pobediteley (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+				F35AA8462C6E903E003E73E9 /* 19 Pokayanie (V Jukovskiy-balladi) - Bibe.ru.mp3 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35AA8142C6E63EF003E73E9 /* MyBookApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35AA8232C6E63F0003E73E9 /* Build configuration list for PBXNativeTarget "MyBookApp" */;
+			buildPhases = (
+				F35AA8112C6E63EF003E73E9 /* Sources */,
+				F35AA8122C6E63EF003E73E9 /* Frameworks */,
+				F35AA8132C6E63EF003E73E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBookApp;
+			productName = MyBookApp;
+			productReference = F35AA8152C6E63EF003E73E9 /* MyBookApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35AA80D2C6E63EF003E73E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F35AA8142C6E63EF003E73E9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F35AA8102C6E63EF003E73E9 /* Build configuration list for PBXProject "MyBookApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35AA80C2C6E63EF003E73E9;
+			productRefGroup = F35AA8162C6E63EF003E73E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35AA8142C6E63EF003E73E9 /* MyBookApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35AA8132C6E63EF003E73E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35AA85E2C6E903E003E73E9 /* 09 Ribak (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA84B2C6E903E003E73E9 /* 02 Adelstan (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA84E2C6E903E003E73E9 /* 25 Bratoubiytsa (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8532C6E903E003E73E9 /* 05 Eolova arfa (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8202C6E63F0003E73E9 /* Preview Assets.xcassets in Resources */,
+				F35AA8562C6E903E003E73E9 /* 10 Ritsar Togenburg (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA84C2C6E903E003E73E9 /* 06 Mschenie (V Jukovskiy balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8622C6E903E003E73E9 /* 19 Pokayanie (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA85B2C6E903E003E73E9 /* 16 Jaloba Tsereri (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA85C2C6E903E003E73E9 /* 18 Alonzo (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8542C6E903E003E73E9 /* 13 Zamok Smalgolm ili Ivanov vecher (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA81D2C6E63F0003E73E9 /* Assets.xcassets in Resources */,
+				F35AA8502C6E903E003E73E9 /* 24 Stariy ritsar (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8612C6E903E003E73E9 /* 14 Torjestvo pobediteley (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA85D2C6E903E003E73E9 /* 03 Varvik (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8552C6E903E003E73E9 /* 28 Lesnoy tsar (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 in Resources */,
+				F35AA8602C6E903E003E73E9 /* 27 Elevzinskiy prazdnik (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA85F2C6E903E003E73E9 /* 23 Ritsar Rollon (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA84D2C6E903E003E73E9 /* 08 Tri pesni (V.Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8472C6E903E003E73E9 /* 07 Garald (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA84A2C6E903E003E73E9 /* 17 Sud Bojiy nad episkopom (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA84F2C6E903E003E73E9 /* 21 Roland orujenosets (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8572C6E903E003E73E9 /* 15 Polikratov persten (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8522C6E903E003E73E9 /* 20 Koroleva Uraka i pyat muchenikov (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8582C6E903E003E73E9 /* 12 Graf Gapsburgskiy (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8592C6E903E003E73E9 /* 01 Kubok (V Jukovskiy-balladi i povest) - Bibe.ru.mp3 in Resources */,
+				F35AA8492C6E903E003E73E9 /* 26 Ivikovi juravli (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8512C6E903E003E73E9 /* 22 Plavanie Karla Velikogo (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA8482C6E903E003E73E9 /* 11 Perchatka (V Jukovskiy-balladi) - Bibe.ru.mp3 in Resources */,
+				F35AA85A2C6E903E003E73E9 /* 04 Ballada v kotoroy opisivaetsya kak odna starushka ehala na kone (V Jukovskiy) - Bibe.ru.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35AA8112C6E63EF003E73E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35AA8292C6E76A5003E73E9 /* CustomPlayLine.swift in Sources */,
+				F35AA8642C6F6CEC003E73E9 /* CustomTabBar.swift in Sources */,
+				F35AA81B2C6E63EF003E73E9 /* ContentView.swift in Sources */,
+				F35AA8192C6E63EF003E73E9 /* MyBookAppApp.swift in Sources */,
+				F35AA8272C6E6DAB003E73E9 /* CustomSliderButton.swift in Sources */,
+				F35AA8662C6FADEA003E73E9 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F35AA8212C6E63F0003E73E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F35AA8222C6E63F0003E73E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F35AA8242C6E63F0003E73E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyBookApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PS9R8UBLM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F35AA8252C6E63F0003E73E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyBookApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7PS9R8UBLM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyBookApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35AA8102C6E63EF003E73E9 /* Build configuration list for PBXProject "MyBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35AA8212C6E63F0003E73E9 /* Debug */,
+				F35AA8222C6E63F0003E73E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35AA8232C6E63F0003E73E9 /* Build configuration list for PBXNativeTarget "MyBookApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35AA8242C6E63F0003E73E9 /* Debug */,
+				F35AA8252C6E63F0003E73E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35AA80D2C6E63EF003E73E9 /* Project object */;
+}
